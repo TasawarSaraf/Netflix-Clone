@@ -12,7 +12,6 @@ class MainTabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .blue
         
         let vc1 = UINavigationController(rootViewController: HomeViewController())
         let vc2 = UINavigationController(rootViewController: UpcomingViewController())
@@ -31,7 +30,7 @@ class MainTabBarViewController: UITabBarController {
         vc4.tabBarItem.title = "Downloads"
         
         
-        tabBar.barTintColor = .systemBackground
+        tabBar.barTintColor = .label
         
         /**Function coming from UITabViewController**/
         setViewControllers([vc1, vc2, vc3, vc4], animated: true)

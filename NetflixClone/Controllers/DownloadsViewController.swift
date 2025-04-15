@@ -13,7 +13,7 @@ class DownloadsViewController: UIViewController {
     
         super.viewDidLoad()
         
-        view.backgroundColor = .systemBackground
+        view.backgroundColor = .black
         
     }
 }
